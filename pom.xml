@@ -54,8 +54,7 @@
         <configuration>
           <hostname>${hostname}</hostname>
           <port>9990</port>
-          <username>admin</username>
-          <password>lobxwv:Niyd9k]</password>
+          <username>deployer</username>
         </configuration>
       </plugin>
     </plugins>
