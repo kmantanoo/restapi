@@ -70,6 +70,7 @@
         </executions>
         <configuration>
           <hostname>localhost</hostname>
+          <port>9990</port>
           <username>${user}</username>
           <password>${password}</password>
         </configuration>
