@@ -48,7 +48,7 @@
   </dependencies>
 
   <build>
-    <finalName>rest.war</finalName>
+    <finalName>ROOT.war</finalName>
     <plugins>
       <!--
       <plugin>
