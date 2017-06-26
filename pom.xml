@@ -56,6 +56,24 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
       -->
+      <plugin>
+        <groupId>org.wildfly.plugins</groupId>
+        <artifactId>wildfly-maven-plugin</artifactId>
+        <version>1.2.0.Alpha6</version>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <hostname>localhost</hostname>
+          <username>${user}</username>
+          <password>${password}</password>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
